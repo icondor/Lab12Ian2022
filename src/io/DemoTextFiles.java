@@ -19,7 +19,7 @@ public class DemoTextFiles {
             List<String> lista = Files.readAllLines(p);
             for(int i=0;i<lista.size();i++) {
                 String currentLine = lista.get(i);
-                StringTokenizer st = new StringTokenizer(currentLine);
+                StringTokenizer st = new StringTokenizer(currentLine,);
                 int counter = 0;
 
                 while (st.hasMoreTokens()) {
